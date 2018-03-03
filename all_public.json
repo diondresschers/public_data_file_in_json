@@ -1,0 +1,120 @@
+{
+  "recepies": {
+    "guacemole": {
+      "type": "dip",
+      "instructions": "",
+      "vegan": true,
+      "quick": true,
+      "cold": true,
+      "ingredients": {
+        "avocado": {
+          "amount": 1,
+          "quantity": "piece",
+          "processing": "crush",
+          "must be fresh": true,
+          "manditory": true,
+          "alternatives": {}
+        },
+        "tomato": {
+          "amount": 1,
+          "quantity": "piece",
+          "processing": "chop",
+          "must be fresh": false,
+          "manditory": true,
+          "alternatives": {}
+        },
+        "onion": {
+          "amount": 1,
+          "quantity": "piece",
+          "processing": "chop",
+          "must be fresh": true,
+          "manditory": true,
+          "alternatives": {}
+        },
+        "garlic": {
+          "amount": 1,
+          "quantity": "piece",
+          "processing": "grind",
+          "must be fresh": false,
+          "manditory": false,
+          "alternatives": {}
+        },
+        "pepper": {
+          "amount": 1,
+          "quantity": "piece",
+          "processing": "grind",
+          "must be fresh": false,
+          "manditory": false,
+          "alternatives": {
+            "chili flakes": {
+              "amount": 1,
+              "quantity": "pinch",
+              "processing": "none",
+              "must be fresh": false,
+              "manditory": false,
+              "alternatives": {}
+            }
+          }
+        },
+        "salt": {
+          "amount": 1,
+          "quantity": "piece",
+          "processing": "grind",
+          "must be fresh": false,
+          "manditory": false,
+          "alternatives": {}
+        }
+      },
+      "heating": {
+        "boiling": false,
+        "deepfrying": false,
+        "grilling": false,
+        "baking": false
+      },
+      "cooling": {
+        "freezing": false,
+        "cooling": false
+      },
+      "preparing": {
+        "blending": false,
+        "cooling": false,
+        "chopping": true
+      }
+    }
+  },
+  "software": {
+    "operating_systems": {
+      "Windows": {
+        "version": "10",
+        "vendor": "Microsoft",
+        "Open Source": false
+      },
+      "Ubuntu": {
+        "version": "18.04",
+        "vendor": "Ubuntu",
+        "Open Source": true
+      }
+    }
+  },
+  "testing": {
+    "test_something": [
+      3,
+      2,
+      1
+    ],
+    "test_value": true,
+    "test_null": null,
+    "test_member": 123,
+    "object": {
+      "a": "b",
+      "c": "d",
+      "e": "f"
+    },
+    "test_object": {
+      "a": "b",
+      "c": "d",
+      "e": "f"
+    },
+    "test_string": "Hello World"
+  }
+}
